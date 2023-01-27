@@ -1,0 +1,62 @@
+
+{% extends "base.html" %} {% block content %}
+
+
+
+<div class="file-container">
+    <div class="file-overlay"></div>
+    <div class="file-wrapper">
+
+        <div class="file-content">
+          <h1>Upload your resume here</h1>
+          <h2 class="subheader">Only files allowed! (pdf,docx) </h2>
+             <form name="upload" method="post"  enctype="multipart/form-data" accept-charset="utf-8">
+            <div class="file-infos">
+                <p class="file-icon"><i class="fas fa-folder-open fa-3x"></i><span class="icon-shadow"></span>
+
+                <div class="upload-text">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+               <span><input type="file" value="Upload" name="file" id="file"  accept=".pdf,.docx"></span>
+                <br>
+                <br>
+
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+                <span> <button style="margin-right: 97px" type="submit" value=Upload id="fakebtn">Click to upload</button></span>
+
+            </div>
+
+            </div>
+
+
+
+
+            </form>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
